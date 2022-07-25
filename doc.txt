@@ -1,0 +1,17 @@
+Why use Tailwind CSS?
+
+NO reinventing of class name required
+You CSS doesn't grow with your html and designs
+When you make a change, no risk of breaking exixting templatess
+
+<<<-----Setting Up Tailwind CSS------->>>>
+1. npm init -y
+2. npm install -D tailwindcss postcss autoprefix vite
+3. npx tailwindcss init -p
+4. Create a css input.css file add it to your html and edit it with this commented out
+    @tailwindcss base;
+    @tailwindcss components;
+    @tailwind utilities;
+5. in yourtailwind .config.js file replace content:[] with content:['*']
+6. Add "start" :"vite" to your scripts in package.json
+7. Run npm start command to start a dev server
